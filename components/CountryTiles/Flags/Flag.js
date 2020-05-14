@@ -3,7 +3,8 @@ import styled from 'styled-components';
 
 const Image = styled.img`
   width: 100%;
-  height: 200px;
+  max-height: 200px;
+  border-radius: 5px;
 `;
 
 const Flag = ({ imgSrc, imgAlt }) => <Image src={imgSrc} alt={imgAlt} />;

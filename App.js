@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
+import styled from 'styled-components';
 
 import './App.css';
-import styled from 'styled-components';
 import CountryTiles from './components/CountryTiles/CountryTiles';
 import SearchForm from './components/SearchForm/SearchForm';
 
